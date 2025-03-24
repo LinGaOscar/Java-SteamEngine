@@ -1,6 +1,6 @@
 package com.worldline.interview;
 
-public interface Engine {
+public interface EngineInterface {
     void start();
 
     void stop();

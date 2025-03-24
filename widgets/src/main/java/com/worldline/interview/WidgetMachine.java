@@ -1,9 +1,10 @@
 package com.worldline.interview;
 
 public class WidgetMachine {
-    private Engine engine;
    
-    public WidgetMachine(Engine engine) {
+    private EngineInterface engine;
+
+    public WidgetMachine(EngineInterface engine) {
         this.engine = engine;
     }
 
