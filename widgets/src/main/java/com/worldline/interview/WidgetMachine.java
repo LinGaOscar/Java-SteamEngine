@@ -31,7 +31,7 @@ public class WidgetMachine {
             batchCount++;
         }
 
-        return (int) (batchCount * costPerBatch);
+        return (int) Math.ceil(batchCount * costPerBatch);
     }
     
 }
